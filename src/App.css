@@ -2,11 +2,13 @@
   background-color: black;
   color : white;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 .board{
   border: 2px solid white;
-  width: 600px;
-  height:600px;
+  width: 480px;
+  height:480px;
   margin: auto;
 }
 
@@ -17,10 +19,14 @@
 }
 .Box{
   border: 2px solid white;
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
 }
 .reset-btn{
   border: 2px solid white;
   border-radius: 5px;
+  font-size: 16px;
+  width: 100px;
+  height: 32px;
+  margin: 20px;
 }
